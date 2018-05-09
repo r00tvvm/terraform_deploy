@@ -1,0 +1,59 @@
+*.iml
+.classpath
+.idea
+.project
+.settings
+.springBeans
+*.releaseBackup
+*/target*
+*/log
+target
+log
+*.log
+.DS_Store
+release.properties
+.idea
+docker/*.[w|e|j]ar
+*.[w|e|j]ar
+~HEAD
+${*}
+/bin/
+.scala-version
+.terraform
+
+### Eclipse ###
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.cache-main
+.cache-tests
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# sbteclipse plugin
+.target
+
+
+# Code Recommenders
+.recommenders/
+
+# End of eclipse
