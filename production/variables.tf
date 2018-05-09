@@ -14,7 +14,7 @@ variable "env" {
 }
 
 variable "aws_region" {
-  description = "The AWS region to launch in"
+  description = "AWS region"
   default     = "us-east-1"
 }
 

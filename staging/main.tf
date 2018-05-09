@@ -1,3 +1,7 @@
+provider "aws" {
+  region                  = "${var.aws_region}"
+}
+
 module "vpc" {
   #source     = "github.com/BasileTrujillo/terraform-elastic-beanstalk-nodejs//eb-env"
   source       = "../modules/vpc"
